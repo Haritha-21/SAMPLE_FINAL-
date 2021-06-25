@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lottie login</string>
+    <string name="login">Login</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="login_form">LoGIN FORM</string>
+
+
+</resources>

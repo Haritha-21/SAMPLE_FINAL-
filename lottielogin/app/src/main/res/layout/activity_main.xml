@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="@drawable/light"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="384dp"
+        android:layout_height="130dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/login" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="254dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/login_form"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+     android:id="@+id/editText"
+     android:layout_width="372dp"
+     android:layout_height="62dp"
+     android:layout_marginTop="210dp"
+     android:focusable="true"
+     android:hint="@string/enter_name"
+     android:textColorHighlight="#ff7eff15"
+     android:textColorHint="#ffff25e6" />
+
+
+ <EditText
+     android:id="@+id/editText2"
+     android:layout_width="372dp"
+     android:layout_height="56dp"
+     android:layout_marginTop="310dp"
+     android:ems="10"
+     android:hint="Password"
+     android:inputType="textPassword"
+     android:textColorHint="#ffff299f" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:text="Attempts Left:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="156dp"
+        android:layout_height="64dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-70dp"
+        android:layout_marginTop="-4dp"
+        android:text="New Text"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="144dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"
+        android:text="Cancel" />
+</RelativeLayout>
