@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431779300849",
+    "project_id": "lottie-firebase",
+    "storage_bucket": "lottie-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431779300849:android:37e4a1e09f18d42845f050",
+        "android_client_info": {
+          "package_name": "com.example.lottiefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431779300849-jrm6l8tm4kqalstt5ig0mkejf54e12k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuN04GgjMrCe6uxlUPtV_qbCGVbmj7tuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431779300849-jrm6l8tm4kqalstt5ig0mkejf54e12k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
