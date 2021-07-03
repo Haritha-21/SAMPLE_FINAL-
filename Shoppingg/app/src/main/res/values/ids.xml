@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="drinkNameinOrderSummary" type="id" />
-    <item name="quantityinOrderSummary" type="id" />
-    <item name="hasTopping" type="id" />
-    <item name="hasCream" type="id" />
-    <item name="priceinOrderSummary" type="id" />
-</resources>
