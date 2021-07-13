@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Butter Knife</string>
+    <string name="my_string">This is my string in String resource file </string>
+</resources>
