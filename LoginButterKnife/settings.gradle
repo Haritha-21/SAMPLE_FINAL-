@@ -1,0 +1,2 @@
+rootProject.name = "LoginButter Knife"
+include ':app'
