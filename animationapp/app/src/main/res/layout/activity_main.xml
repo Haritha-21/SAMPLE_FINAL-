@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView android:id="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/images"/>
+
+    <Button
+        android:id="@+id/btnRClk"
+        android:layout_width="272dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/imgvw"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="62dp"
+        android:text="Clockwise"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRAClk"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignBottom="@+id/btnRClk"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="-122dp"
+        android:text="Anti Clockwise"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:onClick="startZoomInAnimation"
+        android:text="Zoom In"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnZoomOut"
+        android:layout_width="144dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="550dp"
+        android:onClick="startZoomOutAnimation"
+        android:textSize="20dp"
+        android:text="Zoom Out" />
+</RelativeLayout>
